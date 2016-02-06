@@ -1,0 +1,62 @@
+.digital {
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analog {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+}
+
+.analog-row {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+
+.a_cell {
+  flex: auto;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle_on {
+  border-radius: 100%;
+  box-shadow: inset 0 0 40px #000;
+  width: 75px;
+  height: 75px;
+
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3250f8), to(#000077));
+  background: -webkit-linear-gradient(to top, #3250f8, #000077);
+  background: -moz-linear-gradient(to top, #3250f8, #000077);
+  background: -o-linear-gradient(to top, #3250f8, #000077);
+  background: linear-gradient(to top, #3250f8, #000077);
+}
+
+.circle_off {
+  border-radius: 100%;
+  box-shadow: inset 0 0 40px #000;
+  width: 75px;
+  height: 75px;
+
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#000));
+  background: -webkit-linear-gradient(to top, #444, #000);
+  background: -moz-linear-gradient(to top, #444, #000);
+  background: -o-linear-gradient(to top, #444, #000);
+  background: linear-gradient(to top, #444, #000);
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
